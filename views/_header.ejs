@@ -1,0 +1,14 @@
+<header>
+    <nav>
+        <ul>
+            <%if(locals.user){%>
+                <li><a href="/signout">signout</a></li>
+            <%}else{%>
+                <li><a href="/">Signin</a></li>
+                <li><a href="/signup">Signup</a></li>
+            <%}%>
+        </ul>
+    </nav>
+</header>
+
+
