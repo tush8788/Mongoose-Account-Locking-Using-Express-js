@@ -3,6 +3,8 @@ if user enter five time wrong password those account lock for next 24 hour
 i have use express,Node.js,mongodb,mongoose,ejs
 for locking user i have use mongoose-account-locking library 
 
+here use normal authentication not passport or any other librory 
+
 //for set up project 
 
 1)download code
